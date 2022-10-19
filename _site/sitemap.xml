@@ -9,4 +9,8 @@
 <url>
 <loc>http://0.0.0.0:4000/login</loc>
 </url>
+<url>
+<loc>http://0.0.0.0:4000/new-app/</loc>
+<lastmod>2022-10-19T11:01:48-05:00</lastmod>
+</url>
 </urlset>
