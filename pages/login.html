@@ -1,0 +1,57 @@
+---
+layout: default
+tagline: "Login"
+title: "Login | WebsiteName"
+description: "Paromint Login"
+permalink: /login
+canonical_url: "https://paromint.com/login"
+date: 2021-03-13T10:15:00Z
+sitemap:
+priority: 0.7
+changefreq: "monthly"
+lastmod: 2021-03-13T12:49:30-05:00
+---
+<main class="overflow-hidden">
+  <section class="section extending-core border-top bg-light edge bottom-right header">
+    <div class="container header">
+      <div class="row align-items-center gap-y">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <div class="shadow bg-contrast p-4 rounded">
+            <form action="srv/contact.php" method="post" class="form form-contact" name="form-contact"
+              data-response-message-animation="slide-in-up" novalidate="novalidate">
+              <div class="row mb-4 align-items-center">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                  <div
+                    class="icon icon-xxl rounded-circle p-3 shadow m-0 d-flex justify-content-center align-items-center aos-init aos-animate">
+                    <img src="assets/img/user.png" class="img-responsive" alt="">
+                  </div>
+                </div>
+                <div class="col-md-4"></div>
+              </div>
+              <div class="mb-4">
+                <label for="contact_email" class="text-dark bold mb-0">Email</label>
+
+                <input type="email" name="Contact[email]" id="contact_email" class="form-control bg-contrast"
+                  placeholder="Email" required="">
+              </div>
+              <div class="mb-4"><label for="contact_email" class="text-dark bold">Password</label> <input type="text"
+                  id="contact_subject" class="form-control bg-contrast" placeholder="Password" required=""></div>
+              <div class="mb-4">
+                <input class="form-check-input" type="checkbox" value="" id="">
+                <label class="form-check-label" for="">
+                  Remember me
+                </label>
+              </div>
+              <div class="mb-4 d-grid gap-2"><button id="contact-submit" data-loading-text="Sending..." name="submit"
+                  type="submit" class="btn btn-primary btn-rounded">Login</button></div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

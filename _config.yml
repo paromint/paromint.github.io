@@ -1,0 +1,45 @@
+name: "Paromint"
+title: "Paromint"
+description: "Paromint is a collection of companies with one primary goal of securing and growing our shareholder’s capital"
+meta_description: "Paromint | Paromint is a collection of companies with one primary goal of securing and growing our shareholder’s capital"
+logo: 'assets/img/logo.png'
+favicon: 'assets/img/favicon.png'
+paginate: 12
+baseurl: ''
+url: ''
+email: 'dhammapal@paromint.com'
+locale: en_US
+seo:
+  keywords: 'Paromint'
+  site_name: Paromint
+og:
+  type: "website"
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+        
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
